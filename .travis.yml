@@ -6,6 +6,6 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install pytest-travis-fold
-script: py.test # run tests
+script: - pytest # run tests
 after_success:
   - codecov # submit coverage
