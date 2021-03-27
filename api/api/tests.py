@@ -1,6 +1,6 @@
 from django.test import TestCase
-from api.calc import add
+from api.calc import adda
 
 class CalcTests(TestCase):
     def test_add_numbers(self):
-        self.assertEqual(add(4,6), 10)
+        self.assertEqual(adda(4,6), 10)
